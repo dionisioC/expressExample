@@ -1,0 +1,22 @@
+GET http://localhost:3000/thoughts/70d94c52-cf07-40dc-9eb0-772d3188a7bb
+Accept: application/json
+
+###
+GET http://localhost:3000/thoughts
+Accept: application/json
+
+###
+POST http://localhost:3000/thoughts
+Content-Type: application/json
+
+{"content" :  "New thought"}
+
+###
+DELETE http://localhost:3000/thoughts/8970efdf-de23-4b03-8563-76f24597
+Accept: application/json
+
+###
+PUT http://localhost:3000/thoughts/9f310d8c-54bf-4fe0-afbd-199f4ddf6d7e
+Content-Type: application/json
+
+{"content" :  "Updated thought"}
